@@ -1,0 +1,10 @@
+.container {
+    background-color: #4c6834;
+    padding: 30px;
+    margin-top: 999px; /* Exemplo de ajuste */
+}
+
+p {
+    padding: 10px; /* Para dar algum espaçamento dentro do parágrafo */
+    color: rgb(255, 255, 255); /* Ajuste a cor do texto, se necessário */
+}

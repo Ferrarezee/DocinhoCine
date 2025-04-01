@@ -1,0 +1,16 @@
+.container{
+    background-color: #4c6834;
+    padding: 10px;
+}
+
+.container ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    justify-items: baseline;
+}
+li{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
