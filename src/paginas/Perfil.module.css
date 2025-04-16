@@ -1,10 +1,8 @@
 .container{
-    padding: 50px;
+    background-color: #415c2e;
+    padding: 10px;
     display: flex;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-h2{
-    color: rgb(255, 255, 255);
+    height: 90vh;
 }
