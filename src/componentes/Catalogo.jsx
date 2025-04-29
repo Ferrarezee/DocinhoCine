@@ -1,6 +1,6 @@
 import estilos from './Catalogo.module.css';
 
-export function Catalogo({movie}){
+export function Catalogo({movie, onOpenModal}){
     return(
         <div className={estilos.container} onClick={() => onOpenModal(movie)}>
             <h3>{movie.title}</h3>

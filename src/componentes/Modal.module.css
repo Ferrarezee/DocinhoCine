@@ -1,4 +1,64 @@
-.modalback{
+.modalback {
     position: fixed;
-    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalcontainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 550px; 
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: monospace;
+}
+
+.modalcontainer h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #222;
+    text-align: center;
+}
+
+.modalcontainer button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 9px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.modalcontainer button:hover {
+    background-color: #b006117e;
+}
+
+.imgDetalhes {
+    width: 100%;
+    border-radius: 6px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.modalcontainer p {
+    color: #444;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 4px 0;
 }
